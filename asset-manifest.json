@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/infill/static/css/main.7ff54887.css",
+    "main.js": "/infill/static/js/main.23e38376.js",
+    "static/media/Californian-FB.ttf": "/infill/static/media/Californian-FB.e6a9257906374f269d3b.ttf",
+    "static/media/Bell-MT.ttf": "/infill/static/media/Bell-MT.c830d6f7513d78e40b5b.ttf",
+    "static/media/pen.png": "/infill/static/media/pen.3ee2e8c9d1565856bafe.png",
+    "static/media/Avenir-Bold.otf": "/infill/static/media/Avenir-Bold.7ce894e12078ca8c5134.otf",
+    "index.html": "/infill/index.html",
+    "main.7ff54887.css.map": "/infill/static/css/main.7ff54887.css.map",
+    "main.23e38376.js.map": "/infill/static/js/main.23e38376.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ff54887.css",
+    "static/js/main.23e38376.js"
+  ]
+}
