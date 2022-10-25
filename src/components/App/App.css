@@ -24,57 +24,39 @@ html {
   src: url('../../../Californian-FB.ttf');
 }
 
-img {
-  height: 20px;
-  width: 20px;
-}
-
-.App {
-}
-
-.App-navbar {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  padding-top: 50px;
-  height: 40px;
-  
-}
-
-.Navbar-pages {
-  display: flex;
-  justify-content: space-evenly;
-  gap: 100px;
-
-}
-
-.Navbar-logo {
-  display: flex;
-  justify-content: space-evenly;
-  gap: 10px;
-}
-
-.Navbar-title {
-  font-family: avenir;
+.title {
   font-size: 20px;
 }
 
-.Navbar-editor {
-  font-family: avenir;
+.header {
   font-size: 16px;
 }
 
-.Navbar-about {
-  font-family: avenir;
-  font-size: 16px;
-}
-
-.App-hero {
-  display: flex;
-  justify-content: space-evenly;
-  font-family: cali;
+.display {
   font-size: 120px;
-  padding-top: 160px;
+}
+
+.even {
+  display: flex; 
+  justify-content: space-evenly;
+}
+
+.avenir {
+  font-family: avenir
+}
+
+.cali {
+  font-family: cali
+}
+
+.big-img {
+  height: 200px;
+  width: 200px;
+}
+
+.small-img {
+  height: 20px;
+  width: 20px;
 }
 
 p {

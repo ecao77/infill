@@ -34,7 +34,7 @@ export default function Pokeapi() {
     <>
       <div className="back">
         <div className="card">
-          <img className = "pokemon-img" src={`${Img}`} />
+          <img className = "big-img" src={`${Img}`} />
           {/*<div className="name">{Find}</div> */}
           <div className="pokemon-type">{Type}</div>
 
