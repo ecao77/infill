@@ -12,33 +12,32 @@ html {
 .boxinput {
   width: 60%;
   height: 200px;
-  padding: 12 20px;
-  border: 6px solid #ded1bd;
-  border-radius: 7px;
-  background-color: #fffcf0;
-
   resize: none;
+  outline: none;
+}
+
+form {
   outline: none;
 }
 
 @font-face {
   font-family: bell;
-  src: url('../../../Bell-MT.ttf');
+  src: url('../../../fonts/Bell-MT.ttf');
 }
 
 @font-face {
   font-family: avenir;
-  src: url('../../../Avenir-Bold.otf');
+  src: url('../../../fonts/Avenir-Bold.otf');
 }
 
 @font-face {
   font-family: cali;
-  src: url('../../../Californian-FB.ttf');
+  src: url('../../../fonts/Californian-FB.ttf');
 }
 
 @font-face {
   font-family: calibold;
-  src: url('../../../Californian-FB-Bold.ttf');
+  src: url('../../../fonts/Californian-FB-Bold.ttf');
 }
 
 .title {
@@ -55,6 +54,8 @@ html {
 
 .txtinput {
   font-size: 30px;
+  padding: 20px;
+  color:#323A40
 }
 
 .even {
@@ -84,6 +85,23 @@ html {
   width: 20px;
 }
 
+.round-border {
+  border: 6px solid #ded1bd;
+  border-radius: 7px;
+}
+
+.background-color {
+  background-color: #fffcf0;
+}
+
+.accent-color {
+  background-color: #ded1bd;
+}
+
 p {
   font-family: bell;
+}
+
+.wide {
+  height: 500px;
 }

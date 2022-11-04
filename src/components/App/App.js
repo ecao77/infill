@@ -1,34 +1,26 @@
 import React from 'react';
 import './App.css';
-import {BrowserRouter as Router, Route, Routes, Link} from 'react-router-dom';
-
+import logo from '../../pen.png'
+import mountain from '../../mountain5.jpeg'
 import Pokeapi from '../../util/Pokeapi';
 import Navbar from '../Navbar/Navbar';
-import Field from '../Field/Field';
-import Home from '../Home/Home';
-
+import { Parallax } from 'react-parallax';
 
 function App() {
   return (
-    <Router>
       <div className="App">
-
-        <Link to="/home"> Home </Link>
-        <Link to="/"> Home </Link>
-      
         <Navbar />
+
         <div className = "even cali display" style = {{paddingTop: 160, paddingBottom: 60}}>
           writing, simplified.
         </div>
 
-        <Field />
+        <Parallax className = "wide" blur={{min: -15, max: 15}} bgImage= {mountain} bgImageAlt="the cat" strength={-300}>
+
+        </Parallax>
         <Pokeapi />
-        <Routes>
-          <Route path = '/' element = {<Home/>} />
-          <Route path = '/home' element = {<Home/>} />
-        </Routes>
       </div>
-    </Router>
+    
   );
 }
 
