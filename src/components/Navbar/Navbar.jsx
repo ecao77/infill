@@ -22,10 +22,10 @@ export default function Navbar() {
       </SLink>
 
       <div className = "even" style = {{gap: 100}}>
-            <SLink to = "/about" className = "avenir header">
+            <SLink to = "/about" className = "avenir pages">
               About
             </SLink>
-            <SLink to = "/editor" className = "avenir header">
+            <SLink to = "/editor" className = "avenir pages">
               Editor
             </SLink>
       </div>
