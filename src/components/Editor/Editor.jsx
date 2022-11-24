@@ -3,6 +3,7 @@ import '../App/App.css';
 
 import Navbar from '../Navbar/Navbar';
 import Field from '../Field/Field';
+import LMapi from '../../util/LMapi'
 
 export default function Editor() {
     return (
@@ -15,6 +16,10 @@ export default function Editor() {
                 To format a sentence, replace the word to be switched with a [MASK] token .
             </div>
             <Field />
+            <div className = "left-align even cali header" style = {{paddingTop: 120, paddingBottom: 30, width: "10%"}}>
+                Results
+            </div>
+            <LMapi />
         </div>
     );
 }

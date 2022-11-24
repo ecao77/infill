@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import mountain from '../../mountain4.jpeg'
-import Pokeapi from '../../util/Pokeapi';
 import Navbar from '../Navbar/Navbar';
 import { Parallax } from 'react-parallax';
 
@@ -27,7 +26,6 @@ function App() {
         <div className = "even cali display" style = {{paddingTop: 160, paddingBottom: 60}}>
           more!
         </div>
-        <Pokeapi />
       </div>
     
   );
